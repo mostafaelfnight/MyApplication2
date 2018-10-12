@@ -1,0 +1,16 @@
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(date 1539351920366)
++++ app/src/main/AndroidManifest.xml	(date 1539351920366)
+@@ -12,7 +12,7 @@
+         android:theme="@style/AppTheme">
+         <activity android:name=".LastNewsActivity"
+             android:windowSoftInputMode="stateHidden"
+-            
++
+             android:usesCleartextTraffic="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
